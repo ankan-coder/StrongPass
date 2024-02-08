@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Abel", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: white;
+}
+
+.navbar {
+  top: 0;
+  width: 100%;
+}
+
+.navbar .nav-left .icon {
+  font-size: 2.188rem;
+  padding: 0.75rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .heading {
+  font-size: 2.813rem;
+  margin: 2.813rem auto;
+}
+
+.container .password-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.938rem;
+}
+
+.container .password-cont .passwordLength {
+  font-size: 2.813rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .password-cont .pass-field {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .password-cont .pass-field .password {
+  box-sizing: border-box;
+  border: 0.063rem solid white;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  padding: 0.625rem 1.875rem;
+  width: 28rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+}
+
+.container .password-cont .pass-field .refresh {
+  box-sizing: border-box;
+  border: 0.063rem solid white;
+  padding: 0.625rem 0.75rem;
+  cursor: pointer;
+  height: 3.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+}
+.container .password-cont .pass-field .copy {
+  box-sizing: border-box;
+  border: 0.063rem solid white;
+  padding: 0.625rem 0.75rem;
+  cursor: pointer;
+  height: 3.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+@media (min-width: 1px) and (max-width: 400px) {
+
+  .navbar .nav-left .icon {
+    font-size: 1.8rem;
+    padding: 0.75rem;
+  }
+
+  .container .heading {
+    font-size: 1.9rem;
+    margin: 2.813rem auto;
+    text-align: center;
+  }
+
+  .container .password-cont .pass-field{
+    font-size: 1rem;
+  }
+
+  .container .password-cont .passwordLength{
+    font-size: 2.3rem;
+    height: 3.25rem;
+  }
+
+  .container .password-cont .pass-field .password {
+    width: 14.5rem;
+    height: 3.25rem;
+  }
+
+  .container .password-cont .pass-field .refresh {
+    height: 3.25rem;
+  }
+}

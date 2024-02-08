@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StrongPass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="icon">
+                StrongPass
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="heading">
+            Get Strong Password in one click straight to your clipboard!
+        </div>
+        <div class="password-cont">
+            <div class="passwordLength">
+                Password Length: <span class="pass-len" id="plen"></span>
+            </div>
+            <div class="pass-field">
+                <div class="password" id="password"></div>
+                <div class="refresh" id="refresh" onclick="refreshPage()">
+                    &#10227;
+                </div>
+                <div class="copy" id="copy" onclick="copyPass()">
+                    &#x1F5CE;
+                </div>
+            </div>
+            <div class="alert" id="copyAlert"></div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
