@@ -56,12 +56,12 @@ body {
 }
 
 .container .password-cont .pass-field .password {
+  width: 28rem;
   box-sizing: border-box;
   border: 0.063rem solid white;
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
   padding: 0.625rem;
-  width: 28rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,11 +70,11 @@ body {
 }
 
 .container .password-cont .pass-field .refresh {
+  height: 3.25rem;
   box-sizing: border-box;
   border: 0.063rem solid white;
   padding: 0.625rem 0.75rem;
   cursor: pointer;
-  height: 3.25rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,9 +117,27 @@ body {
   .container .password-cont .pass-field .password {
     width: 14.5rem;
     height: 3.25rem;
+    box-sizing: border-box;
+    border: 0.063rem solid white;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+    overflow: hidden;
   }
 
   .container .password-cont .pass-field .refresh {
     height: 3.25rem;
+    box-sizing: border-box;
+    border: 0.063rem solid white;
+    padding: 0.625rem 0.75rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
   }
 }
